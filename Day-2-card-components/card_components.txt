@@ -1,0 +1,1 @@
+Cards include a picture, title and a description
