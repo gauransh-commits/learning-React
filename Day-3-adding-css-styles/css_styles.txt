@@ -1,0 +1,11 @@
+How to style react style components with CSS
+
+not including external frameworks or preprocessors
+
+1. external -> great for global styles and small projects
+2. Modules -> preferred for individual components having their own unique style
+3. Inline -> good for components with minimal styling
+
+In modules, className is generated via a hashing algorithm which makes it unique. So there is no naming conflicts while using modules
+
+Inline CSS is easy and convinient, it avoids global style conflicts since there are no classes, it is useful for isolated components with minimal styling, but it is hard to maintain in large web applications, it reduces readability of components
